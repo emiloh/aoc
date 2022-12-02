@@ -2,9 +2,7 @@ with open("../inputs/day02.txt") as f:
     lines = f.readlines()
     sum = 0
     for line in lines:
-        print(sum)
         split = [x.strip() for x in line.split()]
-        print(split)
         if split[0] == "A":
             if split[1] == "X":
                 sum += 1 + 3
